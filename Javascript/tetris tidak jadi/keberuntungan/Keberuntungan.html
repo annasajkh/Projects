@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mencoba</title>
+<script>
+var p = confirm("Mulai Bermain ?");
+var ulang = true;
+while(ulang){
+ //computer
+ var computer = Math.floor(Math.random()* 10 + 1)
+//rules
+if(computer == 1){
+	alert("Kamu harus push up 10x");
+}else if(computer == 2){
+	alert("Kamu harus cium tembok");
+}else if(computer == 3){
+	alert("Kamu harus berjoged");
+}else if(computer == 4){
+	alert("Kamu harus berdiri 1 kaki 10 detik");
+}else if(computer == 5){
+	alert("Kamu selamat");
+}else if (computer == 6) {
+    alert("Kamu harus gendong temanmu");
+}else if (computer == 7) {
+    alert("Kamu harus pijat temanmu");
+}else if (computer == 7) {
+    alert("Kamu harus peluk temanmu");
+}else if (computer == 9) {
+    alert("Kamu harus lompat 5 kali");
+}else{
+    alert("Kamu harus nyanyi apa aja");
+}
+ ulang = confirm('Mau lagi ?');
+ }
+ alert('Terimakasih Sudah Bermain')
+</script>
+</head>
+<body>
+</body>
+</html>
