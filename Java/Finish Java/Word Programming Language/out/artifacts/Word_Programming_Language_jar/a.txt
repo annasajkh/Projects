@@ -1,0 +1,5 @@
+set a 100
+set b 200
+set c 100
+add a b
+printl a

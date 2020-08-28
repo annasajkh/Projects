@@ -1,0 +1,4 @@
+c = clear
+s = stop/start
+r = random
+click = add/remove
