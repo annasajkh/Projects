@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Kalkulator By Annas</title>
+	<style>
+		.kepala {
+			width: 412px;
+			height: 100px;
+			background-color: rgb(168, 165, 165);
+			border: 2px solid black;
+			margin: 0px auto;
+			text-align: end;
+			font-family: Arial;
+			font-size: 70px;
+		}
+
+		.badan {
+			background-color: rgb(168, 165, 165);
+			width: 412px;
+			margin: 0px auto;
+			border: 2px solid black;
+			margin-top: -2px
+		}
+
+
+		.t {
+			width: 100px;
+			height: 100px;
+			background-color: grey;
+			font-size: 20px;
+			margin-top: 5px;
+
+		}
+	</style>
+</head>
+
+<body>
+	<div class="kepala"></div>
+	<div class="badan">
+		<div class="b">
+			<button onclick="cli('(')" class="t">(</button>
+			<button onclick="cli(')')" class="t">)</button>
+			<button onclick="cli('<=')" class="t"><=</button>
+			<button onclick="cli('ac')" class="t">AC</button>
+		</div>
+		<div class="b">
+			<button onclick="cli('7')" class="t">7</button>
+			<button onclick="cli('8')" class="t">8</button>
+			<button onclick="cli('9')" class="t">9</button>
+			<button onclick="cli('/')" class="t">:</button>
+		</div>
+		<div class="b1">
+			<button onclick="cli('4')" class="t">4</button>
+			<button onclick="cli('5')" class="t">5</button>
+			<button onclick="cli('6')" class="t">6</button>
+			<button onclick="cli('*')" class="t">x</button>
+		</div>
+		<div class="b2">
+			<button onclick="cli('1')" class="t">1</button>
+			<button onclick="cli('2')" class="t">2</button>
+			<button onclick="cli('3')" class="t">3</button>
+			<button onclick="cli('-')" class="t">-</button>
+		</div>
+		<div class="b3">
+			<button onclick="cli('0')" class="t">0</button>
+			<button onclick="cli('.')" class="t">.</button>
+			<button onclick="cli('=')" class="t">=</button>
+			<button onclick="cli('+')" class="t">+</button>
+		</div>
+	</div>
+</body>
+<script src="script.js"></script>
+
+</html>
