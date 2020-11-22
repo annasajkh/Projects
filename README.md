@@ -1,3 +1,1 @@
-# Welcome To My Repository :)
-
-This is my projects
+all my projects in one place :P
