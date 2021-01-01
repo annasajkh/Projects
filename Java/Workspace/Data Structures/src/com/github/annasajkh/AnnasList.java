@@ -20,6 +20,12 @@ public class AnnasList<E>
         this.size = size;
     }
 
+    public AnnasList(E[] array)
+    {
+        this.array = array;
+        this.size = array.length;
+    }
+
     public void add(E e)
     {
         if (size == array.length)
