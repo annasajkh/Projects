@@ -2,7 +2,7 @@ package com.github.annasajkh;
 
 import java.util.NoSuchElementException;
 
-public class AnnasHashMap<K, V>
+public class AnnasMap<K, V>
 {
     private class Item<K, V>
     {
@@ -18,12 +18,12 @@ public class AnnasHashMap<K, V>
 
     private AnnasList<Item<K, V>> map = new AnnasList<>();
 
-    public AnnasHashMap(AnnasList<Item<K, V>> map)
+    public AnnasMap(AnnasList<Item<K, V>> map)
     {
         this.map = map;
     }
 
-    public AnnasHashMap()
+    public AnnasMap()
     {
     }
 
@@ -131,9 +131,9 @@ public class AnnasHashMap<K, V>
         return values;
     }
 
-    public AnnasHashMap<K, V> clone()
+    public AnnasMap<K, V> clone()
     {
-        return new AnnasHashMap<K, V>(map.clone());
+        return new AnnasMap<K, V>(map.clone());
     }
 
     public void clear()
