@@ -7,11 +7,8 @@ import java.util.HashMap;
 public class Main
 {
 	static HashMap<String,Double> memory = new HashMap<>();
-	
-	public static String parseOperator(String variable,String otherVariable,char operator)
-	{
-		return variable + '=' + variable + operator + otherVariable;
-	}
+	static HashMap<String,Integer> labels = new HashMap<>();
+	static HashMap<String,String> functions = new HashMap<>();
 
 	public static void main(String[] args)
 	{
